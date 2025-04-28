@@ -1,0 +1,32 @@
+# Python окружение
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Конфиденциальные файлы
+.env
+config.py
+
+# Файлы БД (если вдруг дампы или локалки)
+*.db
+*.sqlite3
+*.sql
+*.dump
+
+# Миграции БД
+migrations/
+alembic/versions/
+
+# Кэш
+.cache/
